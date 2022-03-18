@@ -1,0 +1,48 @@
+body {
+    text-align: center;
+    background-color: #323232;
+}
+
+img {
+    width: 70%;
+}
+
+h1 {
+    color: #cfff00;
+    font-size: 50px;
+}
+
+input {
+    width: 140px;
+    height: 30px;
+}
+
+#valor-real {
+    border: 3px solid #cfff00;
+}
+
+#valor-dollar {
+    border: 3px solid red;
+}
+
+p {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+button {
+    height: 40px;
+    width: 150px;
+    font-size: 20px;
+    cursor: pointer;
+    border: 3px solid #cfff00;
+    border-radius: 10px;
+    background: #323232;
+    color: white;
+}
+
+button:hover {
+    color: #323232;
+    background: #cfff00;
+    border: 3px solid white;
+}
