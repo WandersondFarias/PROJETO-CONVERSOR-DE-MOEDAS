@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css" />
+    <title>My Dollars</title>
+</head>
+
+<body>
+    <img src="./my-dolar.gif">
+    <h1>My Dollars</h1>
+
+    <div>
+        <input id="valor-real" type="number" placeholder="Valor em Reais">
+        <input id="valor-dollar" placeholder="Valor em Dolar">
+
+        <p>$ 0</p>
+
+        <button onclick="calculator()" >Converter</button>
+    </div>
+
+</body>
+
+<script>
+
+    function calculator() {
+        let real = document.getElementById("valor-real").value
+        let dollar = document.getElementById("valor-dollar").value
+
+        let result = real / dollar
+
+         alert (result)
+        }
+
+
+
+</script>
+
+</html>
